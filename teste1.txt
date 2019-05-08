@@ -1,1 +1,3 @@
- teste git teste mais alguns teste 
+ 
+ teste git teste mais alguns teste git na frase
+  agora entendi diff
