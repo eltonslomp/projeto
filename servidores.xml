@@ -1,0 +1,1207 @@
+<list>
+
+  <servidor>
+    <nome>Portal Brasilia</nome>
+    <padrao>true</padrao>
+    <pastaFTP>BSA</pastaFTP>
+    <host>portalsa.supcd.bsa.serpro</host>
+    <porta>990</porta>
+    <sistemas>
+
+      <sistema>
+        <nome>SIAFI Web</nome>
+        <padrao>false</padrao>
+        <ambientes>
+         <ambiente>
+            <nome>HI - Hom. Interna</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_06751_HOM_NOVOSIAFI</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SIAFI2019</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_06751_SIAFI2019_DBHOM066</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI2018</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_06751_SIAFI2018_DBHOM066</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI2017</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_06751_SIAFI2017_DBHOM066</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI2016</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_06751_SIAFI2016_BDHOM66</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI2015</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_06751_SIAFI2015_BDHOM66</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI01</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_06751_SIAFI01_DBHOM066</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_06751_SIAFI_BDHOM66</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>USR_SIAFI</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_06751_USR_SIAFI_DBHOM066</pastaFTP>
+              </schema>
+              
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>HE - Hom. Externa</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_07418_HOM_NOVOSIAFI</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SIAFI2019</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_07418_SIAFI2019_DBHOM050</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI2018</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_07418_SIAFI2018_DBHOM050</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+  			<schema>
+                <nome>SIAFI2017</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_07418_SIAFI2017_DBHOM050</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI2016</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_07418_SIAFI2016_BDHOM050</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI2015</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_07418_SIAFI2015_BDHOM050</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI01</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_07418_SIAFI01_DBHOM050</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_07418_SIAFI_BDHOM050</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>USR_SIAFI</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_07418_USR_SIAFI_BDHOM050</pastaFTP>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_04061_PRO_NOVOSIAFI-NEGOCIO</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SIAFI2019</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_04061_SIAFI2019_DBPRO021</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+             <schema>
+                <nome>SIAFI2018</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04061_SIAFI2018_DBPRO021</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI2017</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04061_SIAFI2017_DBPRO021</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI2016</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04061_SIAFI2016_DBPRO021</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+ 
+              <schema>
+                <nome>SIAFI2015</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04061_SIAFI2015_DBPRO021</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI2014</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04061_SIAFI2014_DBPRO021</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI2013</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04061_SIAFI2013_DBPRO021</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIAFI2012</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04061_SIAFI2012_DBPRO021</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+
+              <schema>
+                <nome>SIAFI01</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04061_SIAFI01_DBPRO021</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SIAFI</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04061_SIAFI_DBPRO021</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>USR_SIAFI</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04061_USR_SIAFI_DBPRO021</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+        </ambientes>
+      </sistema>
+
+      <sistema>
+        <nome>SID</nome>
+        <padrao>false</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Homologação SERPRO</nome>
+            <padrao>true</padrao>
+            <pastaFTP>BSA_AP_05006_HOM_SID</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SID</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_05006_SID_DBHOM027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>ACOMP_MERCAD</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_05006_STN_ACOMP_MERCAD_DBHOM027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>ADMINISTRATI</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_05006_STN_ADMINISTRATI_DBHOM027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>CONFIGURACAO</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_05006_STN_CONFIGURACAO_DBHOM027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>FRAMEWORK</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_05006_STN_FRAMEWORK_DBHOM027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>HELP</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_05006_STN_HELP_DBHOM027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>INTERACAO_USR</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_05006_STN_INTERACAO_USR_DBHOM027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>OPERA_DIVIDA</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_05006_STN_OPERA_DIVIDA_DBHOM027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>REGIS_OBRIGA</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_05006_STN_REGIS_OBRIGA_DBHOM027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>REGIS_PLANEJ</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_05006_STN_REGIS_PLANEJ_DBHOM027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SEGURANCA</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_05006_STN_SEGURANCA_DBHOM027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>STAGE</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_05006_STN_STAGE_DBHOM027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_04863_PRO_SID</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SID</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_04863_SID_DBPRO027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>ACOMP_MERCAD</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04863_STN_ACOMP_MERCAD_DBPRO027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>ADMINISTRATI</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04863_STN_ADMINISTRATI_DBPRO027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>CONFIGURACAO</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04863_STN_CONFIGURACAO_DBPRO027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>FRAMEWORK</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04863_STN_FRAMEWORK_DBPRO027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>HELP</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04863_STN_HELP_DBPRO027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>INTERACAO_USR</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04863_STN_INTERACAO_USR_DBPRO027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>OPERA_DIVIDA</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04863_STN_OPERA_DIVIDA_DBPRO027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>REGIS_OBRIGA</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04863_STN_REGIS_OBRIGA_DBPRO027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>REGIS_PLANEJ</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04863_STN_REGIS_PLANEJ_DBPRO027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SEGURANCA</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04863_STN_SEGURANCA_DBPRO027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>STAGE</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04863_STN_STAGE_DBPRO027</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+        </ambientes>
+      </sistema>
+
+
+
+      <sistema>
+        <nome>SAHEM</nome>
+        <padrao>false</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>true</padrao>
+            <pastaFTP>BSA_AP_07406_HOM_SAHEM</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SAHEM</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_07406_SAHEM_DBHOM022</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_07451_PRO_SAHEM</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SAHEM</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_07451_SAHEM_BDPRO023</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+        </ambientes>
+      </sistema>
+      <sistema>
+        <nome>Persona</nome>
+        <padrao>false</padrao>
+        <ambientes>
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>true</padrao>
+            <pastaFTP>BSA_AP_04375_HOM_PERSONA</pastaFTP>
+            <schemas>
+              <schema>
+                <nome>PERSONA</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_04375_PERSONA_DBHOM023</pastaFTP>
+              </schema>
+              <schema>
+                <nome>SIGRH</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_04375_SIGRH_DBHOM023</pastaFTP>
+              </schema>
+            </schemas>
+          </ambiente>
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_06406_PRO_PERSONA</pastaFTP>
+            <schemas>
+              <schema>
+                <nome>SIGRH</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_06406_SIGRH_BDPRO023</pastaFTP>
+              </schema>
+            </schemas>
+          </ambiente>
+        </ambientes>
+      </sistema>
+
+      <sistema>
+        <nome>SISDEPEN</nome>
+        <padrao>false</padrao>
+        <ambientes>
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_08973_PRO_SISDEPEN-NEGOCIO</pastaFTP>
+            <schemas>
+              <schema>
+                <nome>SISDEPEN</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_08973_SISDEPEN_DBPRO045</pastaFTP>
+              </schema>
+              <schema>
+                <nome>SISDEPEN_AUD</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_08973_SISDEPEN_AUD_DBPRO045</pastaFTP>
+		            <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>USR_SISDEPEN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_08973_USR_SISDEPEN_DBPRO045</pastaFTP>
+		            <codificacao>UTF-8</codificacao>
+              </schema>
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Homologacao</nome>
+            <padrao>true</padrao>
+            <pastaFTP>BSA_AP_10409_HOM_SISDEPEN-NEGOCIO</pastaFTP>
+            <schemas>
+              <schema>
+                <nome>SISDEPEN</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_10409_SISDEPEN_DBHOM042</pastaFTP>
+		<codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SISDEPEN_AUD</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_10409_SISDEPEN_AUD_DBHOM042</pastaFTP>
+		<codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>USR_SISDEPEN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_10409_USR_SISDEPEN_DBHOM042</pastaFTP>
+		<codificacao>UTF-8</codificacao>
+              </schema>
+            </schemas>
+          </ambiente>
+
+
+          <ambiente>
+            <nome>Treinamento</nome>
+            <padrao>true</padrao>
+            <pastaFTP>BSA_AP_10724_TRE_SISDEPEN-ADMINISTRATIVO</pastaFTP>
+            <schemas>
+              <schema>
+                <nome>SISDEPEN</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBT_10724_SISDEPEN_DBTRE041</pastaFTP>
+		<codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SISDEPEN_AUD</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBT_10724_SISDEPEN_AUD_DBTRE041</pastaFTP>
+		<codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>USR_SISDEPEN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBT_10724_USR_SISDEPEN_DBTRE041</pastaFTP>
+		<codificacao>UTF-8</codificacao>
+              </schema>
+            </schemas>
+          </ambiente>
+
+        </ambientes>
+      </sistema>
+      
+
+
+
+      <sistema>
+        <nome>DNIT-SISDNIT</nome>
+        <padrao>true</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>true</padrao>
+            <pastaFTP>BSA_AP_04291_HOM_SISDNIT-INTEGRACAO</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SISDNITCONN</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_04291_SISDNITCONN_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>HSISDNITOWNER</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_04291_HSISDNITOWNER_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_04291_PRO_SISDNIT-INTEGRACAO</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SISDNITCONN</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_04291_SISDNITCONN_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SISDNITOWNER</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04291_SISDNITOWNER_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+              <schema>
+                <nome>SIM_DNIT</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04291_SIM_DNIT_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+        </ambientes>
+      </sistema>
+
+      <sistema>
+        <nome>DNIT-SISDNIT2</nome>
+        <padrao>false</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_10548_HOM_SISDNIT2</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SISDNIT2</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_10548_SISDNIT_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_10548_PRO_SISDNIT2</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SISDNIT2</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_10548_SISDNIT_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+        </ambientes>
+      </sistema>
+      
+      <sistema>
+        <nome>DNIT-SIAC</nome>
+        <padrao>false</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Treinamento</nome>
+            <padrao>true</padrao>
+            <pastaFTP>BSA_AP_78619_TRE_SISDNIT</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SIACOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBT_78619_SIACOWNER_DBTRE029</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SIACCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBT_78619_SIACCONN_DBTRE029</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>false</padrao>
+            <!-- Antigo: BSA_AP_78619_HOM_SISDNIT -->
+            <pastaFTP>BSA_AP_78619_HOM_DNIT_SIAC_TOMCAT</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SIACOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_78619_SIACOWNER_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SIACCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_78619_SIACCONN_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Homologação SGF</nome>
+            <padrao>false</padrao>
+            <!-- Antigo: BSA_AP_78678_HOM_SGF -->
+            <pastaFTP>BSA_AP_78678_HOM_DNIT_SGF_TOMCAT</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>HSGFOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_78678_HSGFOWNER_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>HSGFCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_78678_HSGFCONN_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <!-- Antigo: BSA_AP_78619_PRO_SISDNIT -->
+            <pastaFTP>BSA_AP_78619_PRO_DNIT_SIAC_TOMCAT</pastaFTP>
+            <schemas>
+              <schema>
+                <nome>SIACOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_78619_SIACOWNER_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SIACCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_78619_SIACCONN_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+        </ambientes>
+      </sistema>
+
+      <sistema>
+        <nome>DNIT-SGO_INSPETOR</nome>
+        <padrao>false</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_07814_HOM_SGO_INSPETOR_JBOSS</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>HSGOINSPOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_07814_HSGOINSPOWNER_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>HSGOINSPCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_07814_HSGOINSPCONN_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_07814_PRO_SGO_INSPETOR_JBOSS</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SGOINSPOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_07814_SGOINSPOWNER_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SGOINSPCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_07814_SGOINSPCONN_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+        </ambientes>
+      </sistema>
+
+      <sistema>
+        <nome>DNIT-SGO_MOBILE</nome>
+        <padrao>false</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_04385_HOM_SGO_MOBILE_JBOSS</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>HSGOOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_04385_HSGOOWNER_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>HSGOCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_04385_HSGOCONN_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_04385_PRO_SGO_MOBILE_JBOSS</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SGOOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_04385_SGOOWNER_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SGOCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_04385_SGOCONN_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+        </ambientes>
+      </sistema>
+
+      <sistema>
+        <nome>DNIT-SGPD</nome>
+        <padrao>false</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_00091_HOM_SGPD</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>HSGPDOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_00091_HSGPDOWNER_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>HSGPDCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_00091_HSGPDCONN_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_00091_PRO_SGPD</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SGPDOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_00091_SGPDOWNER_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SGPDCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_00091_SGPDCONN_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+        </ambientes>
+      </sistema>
+
+      <sistema>
+        <nome>DNIT-SCOE</nome>
+        <padrao>false</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_03971_HOM_DNIT_SCOE_WEBAPP_JBOSS</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>HSCOEOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_03971_HSCOEOWNER_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>HSCOECONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_03971_HSCOECONN_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_03971_PRO_DNIT_SCOE_WEBAPP_JBOSS</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SCOEOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_03971_SCOEOWNER_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SCOECONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_03971_SCOECONN_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+        </ambientes>
+      </sistema>
+
+      <sistema>
+        <nome>DNIT-SRPDNIT</nome>
+        <padrao>false</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_07050_HOM_SRPDNIT</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>HSRPOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_07050_HSRPOWNER_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>HSRPCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_07050_HSRPCONN_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_07050_PRO_SRPDNIT</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SRPOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_07050_SRPOWNER_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SRPCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_07050_SRPCONN_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+        </ambientes>
+      </sistema>
+
+      <sistema>
+        <nome>DNIT-SIPROD</nome>
+        <padrao>false</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>true</padrao>
+            <pastaFTP>BSA_AP_78495_HOM_SIPRODDNIT_JAVA_WEBAPP_JBOSS</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>HSIPRODOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_78495_HSIPRODOWNER_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>HSIPRODCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_78495_HSIPRODCONN_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_78495_PRO_SIPRODDNIT_JAVA_WEBAPP_JBOSS</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SIPRODOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_78495_SIPRODOWNER_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SIPRODCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_78495_SIPRODCONN_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+        </ambientes>
+      </sistema>
+
+      <sistema>
+        <nome>DNIT-SISCOF</nome>
+        <padrao>true</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>false</padrao>
+            <pastaFTP>BSA_AP_06886_HOM_DNITSISCOF_JAVA_WEBAPP_JBOSS</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>HSISCOFOWNER</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_06886_HSISCOFOWNER_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>HSISCOFCONN</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBH_06886_HSISCOFCONN_DBHOM046</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>true</padrao>
+            <pastaFTP>BSA_AP_06886_PRO_DNIT-SISCOF</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>SISCOFOWNER</nome>
+                <padrao>false</padrao>
+                <pastaFTP>DBP_06886_SISCOFOWNER_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+              <schema>
+                <nome>SISCOFCONN</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_06886_SISCOFCONN_DBPRO017</pastaFTP>
+                <codificacao>UTF-8</codificacao>
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+        </ambientes>
+      </sistema>
+     
+      
+    </sistemas>
+  </servidor>
+
+  <servidor>
+    <nome>Portal São Paulo</nome>
+    <padrao>false</padrao>
+    <pastaFTP>SPO</pastaFTP>
+    <host>portalsa.supcd.spo.serpro</host>
+    <porta>990</porta>
+    <sistemas>
+
+      <sistema>
+        <nome>PAV</nome>
+        <padrao>true</padrao>
+        <ambientes>
+
+          <ambiente>
+            <nome>Homologação</nome>
+            <padrao>false</padrao>
+            <pastaFTP>SPO_AP_37232_HOM_PAV-JBOSS</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>PAV</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBH_37232_PAV</pastaFTP>
+<!--                <codificacao>UTF-8</codificacao>   -->
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+          <ambiente>
+            <nome>Produção</nome>
+            <padrao>true</padrao>
+            <pastaFTP>SPO_AP_37232_PRO_PAV-JBOSS</pastaFTP>
+            <schemas>
+
+              <schema>
+                <nome>PAV</nome>
+                <padrao>true</padrao>
+                <pastaFTP>DBP_37232_PAV</pastaFTP>
+<!--                <codificacao>UTF-8</codificacao>   -->
+              </schema>
+
+            </schemas>
+          </ambiente>
+
+        </ambientes>
+      </sistema>
+
+    </sistemas>
+  </servidor>
+
+</list>
