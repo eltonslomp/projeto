@@ -1,0 +1,23 @@
+
+--========================atalhos 
+
+-====vs code 
+control + crase = abre o terminal 
+
+
+
+
+-- instalar o web socket para peer to peer
+npm i ws --save
+
+-- rodar a aplicacao
+npm run dev 
+
+-- usando aplicacao 
+se conectar pela porta 5002
+HTTP_PORT=3002 P2P_PORT=5002 PEERS=ws://localhost:5001 npm run dev 
+
+se conectar pela porta 5003
+HTTP_PORT=3003 P2P_PORT=5003 PEERS=ws://localhost:5001,ws://localhost:5002 npm run dev 
+
+mineração é a ação de adicionar novos blocos à blockchain

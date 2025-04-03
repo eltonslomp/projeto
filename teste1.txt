@@ -1,6 +1,0 @@
- 
- teste git teste mais alguns teste git na frase
-  agora entendi diff
-  commitando conm err
-  
-  tentar fazer o push
