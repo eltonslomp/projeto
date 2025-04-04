@@ -10,6 +10,10 @@ control + crase = abre o terminal
 -- instalar o web socket para peer to peer
 npm i ws --save
 
+-- instalar criptografia de curvas elipticas 
+npm i elliptic --save
+
+
 -- rodar a aplicacao
 npm run dev 
 

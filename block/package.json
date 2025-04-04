@@ -2,10 +2,11 @@
   "scripts": {
     "test": "jest --watchAll",
     "start": "node ./app",
-    "dev":"node ./app"
+    "dev": "node ./app"
   },
   "dependencies": {
     "crypto-js": "^4.2.0",
+    "elliptic": "^6.6.1",
     "express": "^4.21.2"
   },
   "devDependencies": {

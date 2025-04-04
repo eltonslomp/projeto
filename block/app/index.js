@@ -23,3 +23,10 @@ app.post('/mine', (req, res) =>{
 
 app.listen(HTTP_PORT, () => console.log(`Listening on port ${HTTP_PORT}`));
 p2pServer.listen();
+
+//adicionando 10 blocos
+for (let i = 0; i < 10; i++) {
+    bc.addBlock(`bloco ${i}`);
+    console.log(bc.chain[i].toString());
+}
+
