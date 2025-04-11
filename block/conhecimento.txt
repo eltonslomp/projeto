@@ -6,13 +6,14 @@ control + crase = abre o terminal
 
 
 
+-- instalar o uuid ( transacao unica) id única universal, id de 32 caracteres gerada com base no timestamp
+npm i uuid --save
 
 -- instalar o web socket para peer to peer
 npm i ws --save
 
 -- instalar criptografia de curvas elipticas 
 npm i elliptic --save
-
 
 -- rodar a aplicacao
 npm run dev 

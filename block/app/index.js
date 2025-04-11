@@ -2,10 +2,14 @@ const express = require('express');
 const Blockchain = require('../blockchain');
 const HTTP_PORT = process.env.HTTP_PORT || 3001;
 const P2pServer = require('./p2p-server');
+const Wallet = require('../wallet');
+const TransactionPool = require('../wallet/transaction-pool');
 
 const app = express();
 const bc = new Blockchain();
-const p2pServer = new P2pServer(bc);
+const tp = new TransactionPool();
+const wallet = new Wallet();
+const p2pServer = new P2pServer(bc,tp);
 
 app.use(express.json());
 
@@ -20,13 +24,27 @@ app.post('/mine', (req, res) =>{
     res.redirect('/blocks');
 });
 
+app.get('/transactions', (req, res) =>{
+    res.json(tp.transactions);
+});
 
+
+app.post('/transact', (req, res) =>{
+    const {recipient,amount} = req.body;
+    const transaction = wallet.createTransaction(recipient, amount, tp);
+    p2pServer.broadcastTransaction(transaction);
+    res.redirect('/transactions');
+});
+
+app.get('/public-key', (req, res) =>{
+    res.json({publicKey : wallet.publicKey});
+});
 app.listen(HTTP_PORT, () => console.log(`Listening on port ${HTTP_PORT}`));
 p2pServer.listen();
 
 //adicionando 10 blocos
-for (let i = 0; i < 10; i++) {
-    bc.addBlock(`bloco ${i}`);
-    console.log(bc.chain[i].toString());
-}
+//for (let i = 0; i < 10; i++) {
+//    bc.addBlock(`bloco ${i}`);
+//    console.log(bc.chain[i].toString());
+//}
 
