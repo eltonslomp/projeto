@@ -4,7 +4,7 @@
 -====vs code 
 control + crase = abre o terminal 
 
-
+0483085ca90c3fb3dcd143756a6c6ee8b2cd81ce3ca7275cd2d00b47f19ee1a8673367655bf4385435ae3e200c00fde3e4cc74d3887b219efd11550909704f5d56
 
 -- instalar o uuid ( transacao unica) id única universal, id de 32 caracteres gerada com base no timestamp
 npm i uuid --save

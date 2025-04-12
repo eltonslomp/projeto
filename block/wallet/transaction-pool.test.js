@@ -1,20 +1,25 @@
 const TransactionPool = require('./transaction-pool');
 const Transaction = require('./transaction');
 const Wallet = require('./index');
-
-//const Blockchain = require('../blockchain');
+const Blockchain = require('../blockchain');
 
 describe('TransactionPool', () => {
-  let transactionPool, transaction, senderWallet;
+  let transactionPool, transaction, senderWallet,bc;
 
   beforeEach(() => {
     transactionPool = new TransactionPool();
     senderWallet = new Wallet();
-    transaction = senderWallet.createTransaction('fake-recipient',30, transactionPool);
+    bc = new Blockchain();
+    transaction = senderWallet.createTransaction('fake-recipient',30, bc,transactionPool);
     });
 
     it('adds a transaction to the pool', () => {
       expect(transactionPool.transactions.find (t => t.id === transaction.id)).toEqual(transaction);
+    });
+
+    it('clear transactions', () => {
+      transactionPool.clear();
+      expect(transactionPool.transactions).toEqual([]);
     });
 
     it('update  a transaction to the pool ', () => {
@@ -32,7 +37,7 @@ describe('TransactionPool', () => {
     
         for (let i=0; i<6; i++) {
             let wallet = new Wallet();
-            transaction = wallet.createTransaction('fake-recipient', 30, transactionPool);
+            transaction = wallet.createTransaction('fake-recipient', 30, bc,transactionPool);
             if(i%2== 0) {
               transaction.input.amount = 99999;
             }else 
@@ -47,8 +52,9 @@ describe('TransactionPool', () => {
     it('grabs valid transactions ', () => {
       expect(transactionPool.validTransactions()).toEqual(validTransactions);
     });
-
   });
+
+
 
 
 });
